@@ -2,8 +2,10 @@
 基于SpringBoot动态切换数据源、连接池，并支持多数据源事务管理
 
 ## 使用方法
+---
 首先导入**dynamicDs.jar**，或导入**dynamic**目录下所有文件
 在配置文件**application.yml**内添加如下配置
+---
 ```properties
 spring:
   datasource:
@@ -34,8 +36,9 @@ ds:
 ds.pool.type为当前数据连接池 <br>
 如不配置默认使用hikari 如需使用druid需pom.xml中添加相关依赖<br>
 ---
-
+---
 以下为相关函数方法
+---
 ```java
 // 当前方法为切换数据源
 DbContext.switchDb("配置的数据源名称");

@@ -1,10 +1,10 @@
 # dynamicDs
-基于SpringBoot动态切换数据源、连接池，并支持多数据源事务管理
+### 基于SpringBoot动态切换数据源、连接池，并支持多数据源事务管理
 
 ## 使用方法
 ---
-首先导入**dynamicDs.jar**，或导入**dynamic**目录下所有文件
-在配置文件**application.yml**内添加如下配置
+首先导入**dynamicDs.jar**，或导入**dynamic**目录下所有文件<br>
+在配置文件**application.yml**内添加如下配置<br>
 ---
 ```properties
 spring:
